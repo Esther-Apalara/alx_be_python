@@ -1,10 +1,12 @@
-# hours_to_seconds.py
+def convert_hours_to_seconds(hours):
+    """Convert hours to seconds."""
+    return hours * 3600
 
-# Step 1: Assign the number of hours
+# Assign the number of hours
 hours = 2
 
-# Step 2: Convert hours to seconds
-seconds = hours * 3600  # 1 hour = 3600 seconds
+# Perform the conversion
+seconds = convert_hours_to_seconds(hours)
 
-# Step 3: Print the result
+# Print the result
 print(f"{hours} hour(s) is {seconds} seconds.")
